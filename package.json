@@ -1,7 +1,13 @@
 {
   "name": "zb-api",
-  "version": "0.0.0",
-  "private": true,
+  "description": "A boilerplate application for building REST APIs using express, mongoose in ES6 with TDD",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": ">=5.6.0",
+    "yarn": ">=1.12"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "lint": "./node_modules/.bin/eslint . --ext .js",
@@ -28,5 +34,19 @@
     "nyc": "^13.1.0",
     "sinon": "^7.1.1",
     "supertest": "^3.3.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "node.js",
+    "boilerplate",
+    "es6",
+    "airbnb",
+    "API",
+    "REST"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kelvinmodesto/zb-api.git"
   }
 }
