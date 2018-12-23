@@ -11,8 +11,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "lint": "./node_modules/.bin/eslint . --ext .js",
-    "lint:init": "./node_modules/.bin/eslint --init",
-    "lint:watch": "yarn lint --watch"
+    "lint:init": "./node_modules/.bin/eslint --init"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
